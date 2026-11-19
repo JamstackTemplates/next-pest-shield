@@ -1,0 +1,19 @@
+{
+  "name": "Greenshield pest control",
+  "description": "A reassuring green-shield theme for pest control companies: a field-guide case of pests treated drawn as engraved specimen plates, a clickable house cutaway showing what lives where, free inspections, protection plans, a family and pet safety page with re-entry times, a wax-sealed guarantee, phone hours and a Jamstacks contact component for inspection enquiries.",
+  "tech": "next",
+  "type": "pest",
+  "style": "shield",
+  "internal": false,
+  "components": [
+    "support-form"
+  ],
+  "configFile": "site.config.json",
+  "screenshots": {
+    "light": "jamstacks/home-light.jpg",
+    "dark": "jamstacks/home-dark.jpg",
+    "theme": {
+      "strategy": "media"
+    }
+  }
+}

@@ -72,3 +72,14 @@ and Pages never import/read it. Keep site.config.json, the form and workflow out
 light/dark captures after a fresh normal build and run node --test jamstacks/config.test.mjs separately.
 Each new template needs its own business-led layout/fonts/art and OG image; do not ship the neutral
 starter as a final design. Remove `plan/` and `.claude/skills/` before publishing a gallery template once reviewed.
+
+## Greenshield file ownership
+
+- `content/business.ts`: business details, Charlotte service areas, phone hours, guarantee and Contact tips.
+- `content/rooms.ts`: 7 cutaway rooms (`validateRooms`).
+- `content/pests.ts`: 12 pests (`validatePests`) — single source of truth for specimen plates and `/safe-at-home/` re-entry table.
+- `content/plans.ts`: 4 protection plan tickets (`validatePlans`).
+- `content/inspections.ts`: 4 inspection steps and 2 inspection types.
+- `app/**/page.tsx`: page-specific headings, prose, labels and CTAs in page order.
+- `components/art/`: bespoke inline SVG artwork (crest, hero scene, cutaway, 12 specimens, motifs, icons).
+

@@ -1,0 +1,22 @@
+{
+  "templateId": "next-pest-shield",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "fullPage": false,
+  "captures": [
+    {
+      "mode": "light",
+      "sha256": "9680ecfd82a191d508476c5d974c2b4586e170afc18c4b5d790b53af64b9ccf7",
+      "file": "jamstacks/home-light.jpg",
+      "bytes": 157881
+    },
+    {
+      "mode": "dark",
+      "sha256": "3f1de20c01cf810eea6c6aeaaf3338c441ba7dbacdea0e67d74f3edb72350de5",
+      "file": "jamstacks/home-dark.jpg",
+      "bytes": 157131
+    }
+  ]
+}
